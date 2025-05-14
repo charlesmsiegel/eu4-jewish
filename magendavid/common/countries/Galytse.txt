@@ -1,0 +1,19 @@
+#Country Name: Please see filename.
+
+graphical_culture = easterngfx
+
+color = { 244 184 12 } # This is used to define the color of the country. It uses RGB. This entry is required.
+
+historical_idea_groups = { } # This is used by the AI of the country to decide which idea groups it will take. The AI will follow this order. ADM/DIP/MIL, so adding multiple ideagroups of the same type does not work, the AI will skip over them. This entry is not required.
+
+historical_units = { } # This is used to define which unit models the country's units will use. The country will only use one set for each sprite level. This entry is not required, the country will default to the models of the unit types it is given.
+
+monarch_names = { } # This is used to define which first names the country's monarchs/advisors/generals will use. The #NUM is used to represent regnal numbers. The = NUM is the chance the name will be picked. The sign, either + (nothing) or - is used to denote gender, so all female names are negative, whilst male names are positive.
+
+leader_names = { } # This is used to define which surnames the country's monarchs/advisors/generals will use. Names do not have to have quotation marks around them, although you do need them if the name has any spaces. e.g. "Double Name".
+
+ship_names = { } # Defines what names the country's ships will use. The names will be used in the order they appear, and once they run out the game will just use roman numerals.
+
+army_names = { } # Defines what names the country's armies will use. The names will be used in the order they appear, and once they run out the game will just use province names.
+
+fleet_names = { } # Defines what names the country's fleets will use. The names will be used in the order they appear, and once they run out the game will just use province names.

@@ -1,0 +1,77 @@
+country_decisions = {
+
+	form_maarav = {
+		major = yes
+		potential = {
+			NOT = {exists = MRV}
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			religion_group = jewish_group
+			any_owned_province = { area = morea_area }
+			num_of_cities = 3
+			NOT = { tag = YID }
+			NOT = { tag = GLT }
+			NOT = { tag = ITL }
+			NOT = { tag = KZR }
+			NOT = { tag = LTA }
+			NOT = { tag = PLE }
+			NOT = { tag = SEP }
+			NOT = { tag = TEI }
+			NOT = { tag = TSA }
+			NOT = { tag = ISR }
+			NOT = { tag = YAV }
+			NOT = { tag = SRH }
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			
+			owns_core_province = 341	# Tunis
+		}
+		effect = {
+			maghreb_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = MRV
+			}
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			set_government_rank = 2
+			change_primary_culture = culture_mizrahi
+			change_tag = MRV
+			swap_non_generic_missions = yes
+			add_prestige = 25
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_capital = 341
+			swap_free_idea_group  = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

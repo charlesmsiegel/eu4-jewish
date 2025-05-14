@@ -1,0 +1,91 @@
+namespace = jewish_dynasty
+
+#Restoration of the Davidic Line
+country_event = {
+	id = jewish_dynasty.1
+	title = "jewish_dynasty.EVTNAME1"
+	desc = "jewish_dynasty.EVTDESC1"
+	picture = CULTURE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		religion_group = jewish_group
+		dynasty = Solomonid
+		tag = ISR
+		NOT = {dynasty = "ben David"}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "jewish_dynasty.EVTOPTA1"
+		# set_dynasty = "ben David"
+		add_prestige = 10
+		
+		define_heir = {
+			claim = 100
+			dynasty = "ben David"
+			name = "Solomon"
+			adm = 6
+			dip = 6
+			mil = 6
+		}
+		# define_ruler = {
+			# claim = PREV
+			# dynasty = "ben David"
+			# name = PREV
+			# adm = PREV
+			# dip = PREV
+			# mil = PREV
+			# age = PREV
+		# }
+		
+	}
+	
+	option = {
+		name = "jewish_dynasty.EVTOPTB1"
+	}
+}
+
+#False Restoration of the Davidic Line
+country_event = {
+	id = jewish_dynasty.2
+	title = "jewish_dynasty.EVTNAME2"
+	desc = "jewish_dynasty.EVTDESC2"
+	picture = CULTURE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		religion_group = jewish_group
+		NOT = {
+			dynasty = Solomonid
+		}
+		tag = ISR
+		NOT = {dynasty = "ben David"}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "jewish_dynasty.EVTOPTA2"
+		# set_dynasty = "ben David"
+		add_corruption = 2
+		
+		define_heir = {
+			claim = 50
+			dynasty = "ben David"
+			name = "Solomon"
+		}
+	}
+	
+	option = {
+		name = "jewish_dynasty.EVTOPTB2"
+		add_stability = 1
+	}
+}

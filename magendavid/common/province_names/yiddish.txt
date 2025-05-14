@@ -1,0 +1,5 @@
+# Levant
+379 = "Yerushalayim"
+
+# Galicia
+2961 = "Lemberg"

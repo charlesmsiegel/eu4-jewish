@@ -1,0 +1,254 @@
+jewish_cultures = {
+	graphical_culture = muslimgfx
+	
+	male_names = {
+		Aharon Ezra Asher Binyamin Yehudah Solomon Shlomo Levi Efraim Reuben Gad Naftali Manasseh Issachar Zebulon Dan Simeon Tovia Hillel Shammai
+		Abba Abbaye Acha Achai Achunai Aharon Alechsandri Ammi Amram Amunah Ashi Asher Avomai Avraham Azariah Baboi Baruch
+		Bibai Binyamin Boaz Bustenai Chanan Chananel Chaninai Chanoch Chaim Chayim Chelbo Chisdai Chiyya Chizkiyah Chofni Chushiel
+		Daniel David Dimi Dodai Dudai Efrayim Eina Elazar Elchanan Eldad Eliezer Elyakim Gedalyah Gershom Ghayyat Giat Giza Hillel 
+		Hila Isaac Ivomai Kafnai Kahana Kalonymos Levi Kiyomi Machir Malcha Mar Mari Matiyahu Meir Menechem Menashe Mesharsheya Meshulam 
+		Mevasser Mishael Mordechai Moshe Nachman Nachshon Nasan Natan Natroi Natronai Nechemiah Nehilai Nesanel Nissim Paltoi Pirkoi 
+		Peter Rava Ravai Ravi Ravya Reuven Rivai Saadiah Sechok Shabsai Shalom Shanoi Shemaryah Sherira Sheshna Shila Shimon Shinoi 
+		Shlomo Shmuel Sorgo Sulam Tachlifa Tamar Tzadok Tzemach Uri Yaakov Yachya Yechiel Yehudah Yehudai Yehoshua Yeshayah
+		Yisrael Yitzchak Yoel Yosef Yoshiah Yosi Yuda Zakkai Zelekman Zuiskind Adam Shiah Ariel Aviv Avner Chesed Doron Dror Eliyahu Eyal
+		Gavriel Emmanuel Ephraim Mikhael Noga Or Oren Osher Obed Obadiah Peleg Yeshua Yonatan Zvi Melek Ezra Jordan Adi Adir Agam Akiba Akiva Almog Alon Amichai Amir Amit Amnon Amos Anat Ari Arieh Arik Aryeh Asa Asaf Avi Avidan Avihu 
+		Aviram Avishai Aviya Avram Ayal Barak Dan Dar Dekel Deror Dikla Diklah Dor Dori Dov Eden Efraim Ehud Eiran Eitan Eli Elijah
+		Elkan Erez Gal Gideon Gil Gilad Gili Hadar Hain Hebel Hed Hevel Hyam Idal Ilan Ira Itai Itamar Iyov Jaffe
+		Jaron Keshet Kfir Lavi Lev Li Lior Liron Maayan Malachi Maoir Matan Mattityahu Melech Meyer Miron Mor Moran Nachum
+		Nadav Nir Nitzan Niv Noach Noam Noy Ofek Ofer Ofir Ofra Oriel Ori Ovadia Oved Oz Paz Peretz Pinchas 
+		Raanan Ravid Raz Reuben Roi Ron Ronen Rotem Sagi Shachar Shahar Shai Shaked Shalev Shani Shay Shimshon
+		Simcha Stav Tal Tam Tamir Tom Tomer Tovia Tuvya Tzafrir Tzion Tzvi Udi Uriel Uzi Uzzi Uzziel Yachin
+		Yafe Yaffe Yair Yakov Yaniv Yarden Yaron Yechezkiel Yehiel Yehonatan Yehudi Yishai Yissakhar Yitzhak
+		Yoav Yochanan Yonah Yoni Yoram Yuval Zeev Zev Ziv Zohar Gamliel
+	}
+	
+	female_names = {
+		Adena Adi Adva Ahuva Alexandra Aliza Alte Arieh Asher Basia Boaz Chanah Cypros Danya Dara Dina Doris Dov Dvora Elisheva Esther 
+		Galia Galit Leah Liat Liora Machla Mariamne Marni Maya Meital Menahem Milka Naamah Nahal Nava Nissa Orah Orit Osher Rachel Raisa 
+		Rivka Salampsio Sarah Shayna Tamar Tirtza Yael Yocheved
+		Beila Belet Chana Doltza Esther Guta Guthela Madrona Matrona Minna Pultzelina Rachel Rivkah Saris Scolaster
+		Shluida Shoinlin Shonlin Tziporah Yehudis Yeintil Leah Adara Ahava Aliyah Ariel Aviva Ehla Ayala Batsheva
+		Chava Chaya Dalia Dalit Dana Dvorah Dor Dorit Eden Gal Gilah Hadar Hadassah Ilana Malka Miriam Naomi
+		Rina Ruth Sarah Shira Shoshannah Shulamit Talya Tikva Tovah Vered Yael Mara
+		Achinoam Adena Adi Adina Adva Agam Ahuva Aliya Aliza Almog Alona Amira Amit Anat Atalia Atara Atarah Avia Avigail Avishag Aviv Aviya Ayelet Ayla Bashe Basia Basya Batel Batya Batyah Beracha Bosmat Bracha Channah Chanah Chesed Dafna Dalya Danya Dar Dassah Deborah Derorit Devorah Dikla Diklah Drorit Efrat Elah Eliana Eliora Elisheva Elke Galia Galit Geula Gili Hadas Hagit Hannah Hava Hed Herut Hila Ilanit Inbal Inbar Irit Jaffe Kelila Keren Keshet Kineret Kinneret Li Liat LIbi Lihi Lilach Lior Liora Liorit Liron Lital Livna Livnat Maayan Margalit Margalita Marganita Marni Marnie Maya Maytal Meira Meirit Meital Menuha Merav Mica Michal Mor Moran Naamah Nahal Nava Nessa Neta Nili Nissa Nitza Nitzan Noa Noam Noga Nogah Noy Noya Nurit Ofir Ofra Or Ora Orah Ori Orit ORli Orly Orna Paz Rani Ravid Raz Raziela Reut Rinat Riva Rivka Ron Rona Roni Ronit Rotem Rut Sagit Sapir Sarit Shachar Shahar Shaked Shalev Shamira Shani Shay Shifra Shir Shiri Shlomit Sigal Sigalit Simcha Smadar Stav Tahlia Tal Tali Talia Tam Tamar Tehila Tirtzah Tom Tova Tovia Tzila Tzipporah Tzivia Tzivya Tzofiya Tzufit Tzvia Varda Yaara Tachna Yaen Yafa Yakira Yarden Yardena Yarona Yehudit Yemima Gudit Yocheved Yonina Yonit Yuval Zahara Zipporah Ziv Ziva Zivit Zohar 
+	}
+	
+	dynasty_names = {
+		Kohen Hasmonean Solomonid Levite Yehudi Efraimi Binyamini Reuveni Gadi Neftali Asheri Manassi Zebuli Issachari Dani Simeoni Yisrael Makabi
+	}
+	
+	yiddish = {
+		graphical_culture = easterngfx
+		# primary = TUR
+		male_names = {
+			Aaron Isaac Joseph Jacob Wolfgang Tzvi Tevye Abraham Alexander Uri Israel Natan Max Evgeny Alter Anshel Avrum Benesh
+			Ber Chatzkel Dovid Dudel Evron Faivish Falk Fayvel Feibush Feivel Fishel Fishke Favrel Haskel Herschel Hersh Hershel
+			Heshel Hirsh Hirshel Hyman Hymie Iser Issur Kapel Koppel Lazer Lieber Mendel Moishe Motel Motke Nosson Sekel Selig
+			Sender Shimmel Sroel Teivel Velvel Yankel Yidel Yudel Yussel Zalman Zelig Zusman
+		}
+		female_names = {
+			Golda Eve Glora Natalie Mila Amalie Yevgeniya Alte Baila Beylke Bluma Breindel Charna Eidel Faiga Faigel Feige Freyde
+			Fruma Gittel Gluke Glukel Goldie Hena Henye Hode Hodel Hudes Kaila Kayla Kreindel Kreine Leeba Mirele Perele Perle
+			Raisa Raisel Rayna Reina Rifka Ruchel Shaina Shaindel Shayna Shaynah Sheine Shprintza Shprintze Shprintzel Sisel
+			Suri Toiba Tzeitel Velvela Yente Yentl Yutke Zelda Zelde Zisel Zusa
+		}
+		dynasty_names = {
+			"Bachman" "Berkowicz" "Blum" "Herschel" "Greenberg" "Haber" "Hirsch" "Horowitz" "Siegel" "Jordan" "Kravitz" "Levine" "Maier" "Mendel" "Mendelssohn" "Morganstern" "Neumann" "Nussbaum" "Rosenberg" "Roth" "Samson" "Schenck" "Schwartz" "Brooks" "Silverstein" "Donagi" "Weinstein" "Sachs" "Gelfand" "Chait" "Dror" "Sandler" "Margulies" "Ashkenazi" "Tsvaygenbaum" "Meir" "Yachimovich" "Feirberg" "German" "Ben Gurion" "Bar-Ilan" "Ben-Zvi" "Netanyahu" "Portman" "Kunis" "Noether" "Katz" "Getzler" "Zalmon" Hayes Orenstein Pensak Penzag Penzak Penzig Penzik Vang Wallach Wang Ward Warshawsky
+		}
+	}
+	
+	ladino = {
+		graphical_culture = westerngfx
+		# primary = SEP
+
+		male_names = {
+			Mourice Alain Can Philip Quixano Rodrigo Antonio Amadio Amado Angelo Astruc Bechor Belhom Bello Benamy Bendit Beni
+			Benvenuto Bonjidio Bonsenor Bruno Buendia Comprado Gento Kalo Izi Jaffyu Liaou Merkado Mois Moreno Moshiko Moshon
+			Nalfimay Nissim Pepo Perfeto Sadi Salvator Sasson Sevim Simantov Vidal Vitali Vivas Zafiro Zak Mosse 
+			Salamo Vidal Astruc Juceff Abraham Jacob Isaac David Bondia Jehuda Vives Cresques Durant Bonisac Profait Samuel Asher Belam Biona Bonafos Bonsenyor Deuslosal Fagim Izmael Maymon Perfeit
+		}
+		female_names = {
+			Caryl June Margarita Inês Aida Alexandra Allegra Almonda Amada Amadh Angela Aster Astruga Atsero Benanta Bechora
+			Bella Bellika Belma Benier Benuta Benvenida Bida Blanca Boli "Bona Aunis" Bonafilia Bonadona Bonona Brianda Brilante
+			Bruna Buena Bulissa Cadin Cara Ceti Clara Colomba Contessa Counine Daisy Diamante Didi Dikno Dolce Dolva Donna
+			Dora Dudu Duena Edma Elia Emich Emma Esperanza Estella Estimada Fakima Falcona Farina Fava Ferera Fermoza Flor Fortuna
+			Gaia Gaux Gentilla Yentil Gilda Gioia Gloria Gracia Gretty Gudane Guilidia Hantza Hasiba Helda Hiren Ialy Ikno Indo Ino Ischa Issona Iula Jamila Jeseina Jianula Joliet Judea Jusseva Kahana Khanum Khatun Levana Licoricia
+			Lili Lina Linda Loba Luna Lutsa Luzinda Maby Marquesa Matika Mazaltov Meri Merkada Metuka Mimi Mina Mira Naait Nena Ninet
+			Oro Orovida Palomba Paria Penu Perla Petita Preciosa Pula Pulcelina Rahelita Rebissa Regina Reina Rica Riguetta Rosa Rubena
+			Saliste Samulina Sarina Siniuru Sol Sukele Sultana Sura Tchelebon Tsoutsa Varta Ventura Vida Vinosa Violeta Zafira Zimbul
+			Regina Aster Bonafilia Bonadona Astruga Blanca "Bona Aunis" Goyo Mayrona Adzero Dolca Gaux Judea Sara
+		}
+		dynasty_names = {
+			"Artom" "de Botton" "Bonomo" "Boublil" "Brahms" "Brown" "Bullimore" "Carasso" "Guedalla" "Henriques" "Cansino" "Pires" "Meldola" "Mocatta" "Mendoza" "Perahia" "Sereno" "Falero" "Lopez" "Sanchez" "Alphonsi" "Azoulay" "Benayoun" "Bensoussan" "Aboulker" "Benchetrit" "Eshenazi"
+		}
+	}
+	
+	culture_mizrahi = {
+		graphical_culture = muslimgfx
+	
+		male_names = {
+			Musa Cheb Saadia Naoum Ibrahim "Ya'qub" Naeim Samir Andre Nahum Daud Sabto Yusef
+		}
+		female_names = {
+			Sabriyyah Farha Na'eema Rahima Ziva
+		}
+		dynasty_names = {
+			"Yehudi" "Mizrahi" "Maymun" "Attali" "Sabbah" "Marzouk" "Shebib" "Bilbul" "Giladi" "Naqqash" "Azoulay" "Ma'arabi" "Benayoun" "Mualem" Habbaz Hayat Haddad Sebag Tabib Hakim Pinhas Shammah Shami Anteby Sutton Ghindi Tawil Catton Melamed Aiash Pando Abadi Zami Erani Kuzi Kidouchim Dadon Mosseri Mordechai "al-Khayyata="
+		}
+	}
+
+	culture_beta_israel = {
+		graphical_culture = africangfx
+		# primary = BTI
+	
+		male_names = {
+			Berhan Yefet Seteng Wodage Adisu Alali Imaye Kfir Taamrat Yona Sirak Abatte Alemayehu Berhanu Dejen Desta Tafari Tamrat Tewodros
+		}
+		female_names = {
+			Pnina Tsega Hadas Meskie Emahoy Hagit Esti Yityish Tahounia Aberash Alemayehu Desta Hiwot Meklit Seble Werknesh Worknesh
+		}
+		dynasty_names = {
+			"Hadane" "Yaso" "Zemro" "Alemu" "Ayele" "Bimro" "Iyasu" "Zemiro" "Zvadya" "Biruk" "Caveda" "Taga" "Tzagai" "Zokol" "Massala" "Molla" "Bahaina" "Admasu" "Tamano-Shata" "Negussie" "Bogale" "Aklum" "Tegegne" "Yavarkan" "Uria" "Melaku" "Makonnen" "Shenkor" "Malada-Mitzri" "Sibru-Sivan" "Yeshayahu-Adgeh" "Beru" "Fredo" "Wasa" "Rada" "Sabahat" "Benadam" "Barihun" "Casay" "Aharoni" "Tsegué-Maryam Guèbrou" "Ayala" "Aklilu" "Habash" "Avera" "Amit" "Adgeh" "Baro" "Iegesse" "Senbatu" "Yerday" "Elazar" "Ababa" "Mengistu" "Mamo" "Pikado" "Abtau" "Mashsha" "Taddesse" "Prada" "Aynaw" "Rubel" "Mihret" "Gaday-Agenyahu"
+		}
+	}
+
+	culture_romaniote = {
+		graphical_culture = easterngfx
+		# primary = YAV
+
+		male_names = {
+			Elijah Mordehai Jack Albert Mathias
+		}
+		
+		female_names = {
+			Rae Amalia Gabrielle
+		}
+
+		dynasty_names = {
+			Mizrachi Frizis Dalven Bakas Carteris Jacobs Levis
+		}
+	}
+
+	culture_italkim = {
+		graphical_culture = westerngfx
+		# primary = ITL
+
+		male_names = {
+			Benedetto Farmono Shinguel Angilono Gauyucio Brachono Mushano Sabuti Iosep Brashono Shibite Musha Brasha Iacob Mathathia Nicolo Bulshayra Abrac Abram Actuni Aron Attono Attuni Aurifice Azarono Barono Beniamino Bonavogla Bracon Braxa Busacac Busacca Crixi David Donato Falichisi Gabriel Gandio Gaudio Gentile Iesu Iesus Isacco Iuda Leone Leono Manuel Manuele Manuli Mardoc Maxalufo Medicu Mosè Mussuto Muxa Nissim Paxi Pietropaolo Presti Prospero Rabin Rafael Ricco Sadono Salamone Salomon Salomone Samuel Samuele Eliseo
+		}
+
+		female_names = {
+			Anna Gabriele Grazia Lia Rinona Laurifice Perna Sadia Savita Scibita Senia Tobia Simone Xanna Dinah Donnola 
+		}
+		
+		dynasty_names = {
+			Shamar Cosintino Matensi "de Binna" "de Bracha" "de Messana" Mactuti Binna "de Simuni" Susi Suyanni Iacusi Minzi "de Vechu" Abate "L'Abbate" Dibono Lubarbuto Calabrese Catalno Catanese Cosentino DiFranco DiGeraci Greco Laurifice DiPolizzi LoPresti Romano DiRubino Rustico Salamone Sansone DiSimone Sineni Spagnolo LuSpeciale DiTermini DiTripi Vecchio DiVita Abadara Abrac Actuni Adili Allegrottu Alluxi Aluxu Anaf Arnac Asunsi Attuni Aurifice Azarini Azeni Ben Benassai Bina Bonet Bonu Calabrisi Canet Catalano Chicheri Chippet Chispi Chispu Cuino Dat Elevi Faudali Ficart Finei Fineni Fisico Furnari Gazi Gibet Girachio Girgenti Guillelmo Guini Insize Isac Iuzufi La Levi Lincio Linzio Lisia Lu Lumedicu Lupu Marsili Matrimora Millac Mira Mugnay Muxa Muxarella Nagira Nalini Nanu Polizzi Rabiki Raskisi Rausa Russo Sabuti Sacerdotu Salamon Samuel Sanzato Simonis Siracusa Stozu Sufi Susan Tagul Tolu Veri Vigivani Vigiveni Visa Vita Xaccaruni Xafini Xamuel Xane Xareri Xattarini Xifuni Xunina Zel Graziano 
+		}
+	}
+
+	culture_bukharim = {
+		graphical_culture = easterngfx
+		# primary = BUQ
+
+		dynasty_names = {
+			Abramashvili Alelishvili Alkhazovi Amshikashvili Aronashvili Akhalkatsishvili Ajiashvili Baazovi Babalashvili Babalikashvili Bazazashvili Bazazishvili Bazazovi Bathiashvili Baluashvili Bardanashvili Baghdadishvili Beberashvili Beniashvili Berikashvili Beridze Biniashvili Biniaurishvili Botherashvili Budagovi Buziashvili Buzukashvili Chachashvili Chakhvashvili Chakhuashvili Chikvashvili Chlangishvili Davarashvili Davarovi Davithashvili Davithiashvili Dathiashvili Dathukashvili Danielashvili Darbuashvili Darchiashvili Dedanashvili Dediashvili Dsamalashvili Dsveniashvili Dsidsuashvili Eliashvili Eligulashvili Elikashili Elikishvili Elishaqhashvili Eluashvili Enuqashvili Gagulashvili Gabrielashvili Gorelishvili Gugunashvili Gurielashvili Iakobashvili Iaqhobishvili Iegiskelashvili Izraelashvili Iosebashvili Iskhakashvili Janashvili Janiashvili Jajanashvili Jinjikhashvili Kakiashvili Kakitelashvili Katatchamiashvili Kezerashvili Ketashvili Kvitashvili Kiboshvili Kikozashvili Kozashvili Krikheli Khabazishvili Khakhanashvili Khanukashvili Khakhvitchamiashvili Khakhiashvili Khakhmigeri Khakhmishvili Khikhinashvili Khoteveli Khukhashvili Leviashvili Lezgishvili Mamisthvalashvili Mamisthvalishvili Mamisthvalovi Manasherovi Mardakhiashvili Maghalashvili Madsonashvili Megrelishvili Mirelashvili Midskeplishvili Mikhiashvili Mordekhashvili Moshiashvili Modzghvrishvili Navtholishvili Nanikashvili Oniashvili Paatashvili Papiashvili Papisimedashvili Papisimedovi Papismedovi Papismedashvili Patarkatsishvili Phanikashvili Phichkhadze Phophlishvili Qosashvili Qurtsikashvili Qurtsishvili Qhezerashvili Qhvithelashvili Qhoboshvili Rizhinashvili Roketlishvili Sephiashvili Simonishvili Sinatashvili Shavlikashvili Shathashvili Shaishmelashvili Shamelashvili Shamlikashvili Shalelashvili Shaphthoshvili Shashuashvili Shimshelashvili Shishinashvili Thavdidishvili Tharonishvili Tharunishvili Thethroqalashvili Thethruashvili Thophchiashvili Tatikashvili Tetoshvili Turphiashvili Tsitsiashvili Tsithlishvili Tskhvirashvili Tchilashvili Tchutiashvili Vermishashvili Zizovi Zonenashvili Zhvitiashvili Zhutashvili
+		}
+	}
+
+	culture_yemenite = {
+		graphical_culture = muslimgfx
+		# primary = TEI
+
+		female_names = {
+			Ofra
+		}
+
+		dynasty_names = {
+			Haza
+		}
+	}
+	
+	culture_krymchak = {
+		graphical_culture = easterngfx
+	}
+
+	israeli = {
+		# primary = ISR
+		male_names = {
+			Abba Abbaye Acha Achai Achunai Aharon Alechsandri Ammi Amram Amunah Ashi Asher Avomai Avraham Azariah Baboi Baruch
+			Bibai Binyamin Boaz Bustenai Chanan Chananel Chaninai Chanoch Chaim Chayim Chelbo Chisdai Chiyya Chizkiyah Chofni Chushiel
+			Daniel David Dimi Dodai Dudai Efrayim Eina Elazar Elchanan Eldad Eliezer Elyakim Gedalyah Gershom Ghayyat Giat Giza Hillel 
+			Hila Isaac Ivomai Kafnai Kahana Kalonymos Levi Kiyomi Machir Malcha Mar Mari Matiyahu Meir Menechem Menashe Mesharsheya Meshulam 
+			Mevasser Mishael Mordechai Moshe Nachman Nachshon Nasan Natan Natroi Natronai Nechemiah Nehilai Nesanel Nissim Paltoi Pirkoi 
+			Peter Rava Ravai Ravi Ravya Reuven Rivai Saadiah Sechok Shabsai Shalom Shanoi Shemaryah Sherira Sheshna Shila Shimon Shinoi 
+			Shlomo Shmuel Sorgo Sulam Tachlifa Tamar Tzadok Tzemach Uri Yaakov Yachya Yechiel Yehudah Yehudai Yehoshua Yeshayah
+			Yisrael Yitzchak Yoel Yosef Yoshiah Yosi Yuda Zakkai Zelekman Zuiskind
+		}
+		female_names = {
+			Beila Belet Chana Doltza Esther Guta Guthela Madrona Matrona Minna Pultzelina Rachel Rivkah Saris Scolaster
+			Shluida Shoinlin Shonlin Tziporah Yehudis Yeintil
+		}
+		dynasty_names = {
+			"Hasmonean" "bno shl Aaron" "bno shl Benjamin" "Solomonid"
+		}
+	}
+	
+	dzhidi = {
+		graphical_culture = muslimgfx
+		# primary = PRX
+
+		male_names = { 
+			Abbas Abolhassan Afshar Ahmad Akbar Allahyar Amin Anushirvan
+			Aram Ardahan Ardavan Ardeshir Assad Aurang Ayeshah Babak Bahman 
+			Bahram Bakhtiar Behrad Behrouz Bozorg Danush Darab Dariush Darius Davud 
+			David Djamasp Ebrahim Abraham Ehsan Esfandiar Eskander Alexander Esma'il Ismail 
+			Faramarz Faraz Fareed Farid Farhad Fariborz Farroukh 
+			Farrukhzad Farzad Ferdows Fereedun Feridun Ghobad Gholam Godarz 
+			Goshtasb Hafez Hassan Hasan Hazarasp Hedayat Hooshyar
+			Hormazd Hormoz Humayun Jahandar Jahangir Jahanshah 
+			Jamshid Javeed Kambiz Kamran Kavoos Keyghobad Keykhosrau
+			Kharmandar Khashayar Kavadh Khodadad Khosrau
+			Khudayar Khurshid Kurush Cyrus Mahmud Manuchihr Manushihr
+			MarzubanMashad Maziar Mehrab Mehrzad Morad Morteza Mozaffar 
+			Nard Naveed Nawid Nezam Parviz Pashang Peroz Pujman Rostam Ruhollah 
+			Sadri Shahab Shahbaz Shahin Shahram Shahrokh Sharokh 
+			Shahruz Shahryar Shapur Shayan Sina Tahmasb
+			Vahhab Vahid Vali Vandad Varshasb Vishtasb Yazdegerd Yousef Joseph Zahak 
+			Zakaria Zand Zartosht Zia Joneid Haidar Safi 
+			Hosayn Rukh Mirza Karim Khân 
+			Sâdiq Loft Aga Fath 
+		}
+		female_names = { 
+			Afsaneh Ahu Arghavan Azarmidokht Asa Azadeh Bahar Banafsheh Behnaz Burandokht Darya Delaram 
+			Delbar Dinah Donya Elham Elnaz Farah Fareedeh Farnaz Farrin Farva Furuzan Ghamze Ghazal 
+			Ghoncheh Golbahar Golnaz Golpari Golshan Hamdam Hurmat Irandokht 
+			Jamileh Javaneh Leila Mahdokht Mahtab Mariam Navvaba Nazgol Nazilla Noor
+			Parvaneh Parvin Pertevniyal Pourandokht Roshanora Roxana Salomeh Shahrzad Shahzadeh 
+			Shirin Soraya Touran Tourandokht Yasaman Yekta Zarrindokht Zeynab Zohreh Atiya
+		}
+
+		dynasty_names = {
+			Abrishami Abadi Abbasi Abyaneh Adibi Aeenechi Afshar Akbari Akhavan Alaee Alamouti AleEshagh Almasi Amir Amid Amini Amlashi Anvari Aref Araki Ardalan Arjomand Arya Asadi Asemani Asgaroladi Asher Ashraf Ashouri Ashtiani Atash Attaran Azadian Azari Azimi Azizi Babadi Baboli Bahari Bahonar Bahmani Bakhshi Banaee Banki Barani Bashari Bastani Bayat Bazargan Behjat Behfar Beigi Berelyani Binafard Birjandi Broumand Broujerdi Bograt Bolour Boloorian Boostani Bootehsaz BourBour Bozorgmehr Chubin Dabashi Daliri Damghani Damirchi Danesh Danialpour Daneshgar Dardashti Darvish Darian Daryani Daryaee Dashti Davoodi Dayyani Dehghan Dehghani Dehpour Deilamani Delijani Delshad Diba Divan Ebrahimzadeh Eemani Izadi Ehsani Elahi Elghanian Eliasi Enayati Esfahani Eshagh Eshaghpour Eshaghian Eshraghi Eslami Etemadi Ettehad Eqbal Falah Falahati Farahmand Farjad Farivar Farjami Farnoosh Farrashi Farrokhzad Farzam Fazel Fekri Fereidouni Firouzi Firouz Foroutan Foumani Fooladi Ganji Ganjian Gebelli Gerami Geramian Ghahremani Ghalamchi Ghaffari Ghavam Ghermezian Ghods Ghorban Givehchi Goharian Golbaz Golestan Golchian Golestaninezhad Golian Golpaygani Golsaz Golshani "Golshan mehr" Gorgani Gowhari Habibi Haddad Haghighi Haim Haimpour Hadian Hajian Hajimiri Hakakian Hakim Hakimian Hakimzadeh Hakimirad Halimi Hamedani Harouni Hassan Hassani Hassibi Hay Hedayati Hejazi Hekmat Helli Hessabi Hoshiar Hoorvash Ilami Jafari Jasbi Jalili Jalilian Jamshidi Javaherian Javedanfar Jawahery Jazi Johari Jourabchi Kabiri Kadkhodazadeh Kafashian Kahen Kalimi Karbasi Karbaschi Kashani Kashi Kasraee Kamali Kanani Kazemi Keivani Keipour Keramat Kermanshahchi Kermanshahi Kermanian Kermani Khakshoor Khaki Khamenei Khamseh Khansari Khalili Khalilian Kharrazi Khatami Khataee Khazaei Khiabani Khoei Khomeini Khorrami Khorasani Khorsandi Khorshidi Khorramian Kiani Kianouri Kimiaee Kohan Kohanzad Kohanchi Kohanteb Kohanpour Kordestani Kosar Kiumehr Laavi Laavian Laame Laahijani Larijani Lalehzari Lavaeee Lavasani  Leevian Lolaee Lotfizadeh Lucas Madani Maddahi Mah Mahgerefteh Makhmalbaf Makhmalian Maknoon Maleki Malekan Malakouti Malayeri Malkoukian Manjili Manuchehrian Mashhadi Mashaian Masoudi Matloubi Mazaheri Mehrannia Mehrabi Meirzadeh Melamed Melmed Merage Mesbah Messian Meschi Mesforosh Mesri Milani Miraee Mirzaei Moaddel Moallem Moghaddam Moghtader Mohebi Mojib Monzavi Mosavi Mosazdeh Mosaeeian Moshiri Moslehi Moteie Motamed Mottahi Mottaki Mozzafarian Nabaee Naderi Naeem Naeemi Nahai Nahawandi Naini Najibi Najjar Nakhon Navvab Nayeri Nazarian Nejad Nejati Neisani NikAeen Nikjoo Niknam Niknazar Nikrooz Nobari Nozari Nikzad NoAeen Noghrechi Noghresaz Noorani Noorbakhsh Norasteh Nosratabadi Newman Mirakhor Okhovvat Otadi Parizad Parizadeh Partovi Panbechi Payvar Peikar Peikarian Pesiani Pezeshki Pezeshkian Pezeshkzadeh Pezeshkpour Pirani Pirnazar Pouldar Pourmorteza Qomi Rabizadeh Rabiee Rabbani Rafie Rahbar Rahimpour Rahmani Rakhshani Rangraz Rashidi Rashidian Rastegar Ravandi Raz Razi Reyhanian Rezwani Rismani Roubini Roshan Rowshanrad Saabet Saatchi Saadati Saba Sabbagh Saberi Sadri Safaee Safi Saghizadeh Sahraee Salari Salehi Samimi Sarraf Sarrafzadeh Sarshar Sarvari Sasanfar Sasan Sasanian Sasooni Samadi Sanei Sayyad Seiti Seraji Seyhoun Simanian Simchi Shakibaee Shakeri Shafiei Shahbazi Shahidi Shahriari Shajarian Shamloo Shemirani Shirazi Shirazian Shirvani Shooshtari Shokouhi Simnegar Sina Sinai Sohanian Solati Soltani Soleimani Soleimanzadeh Soomekh Tabibpour Tabibzadeh Taban Tabari Tabasi Tabrizi Tadayon Tadayoni Taheri Tajeri Tajerani Talaee Talachi Talasazan Talebi Tanha Tarokh Tashkhisi Termehchi Tizabi Tofigh Toghiani Toosi Tovi Vafa Vahedi Vakilian Vakili Varmazyar Yadegar Yadegaran Yaghoobzadeh Yaghoobi Yaghoobnezhad YaminPour Yari Yashayeai Yazdanpour Yazdi Yazdian Yazdianpour Yeganeh Yeroushalmi Younessian Younesi Yousefi YousefZadeh Yousefpour Yousefian Zaghi Zakeri Zafarmehr Zahiri Zamani Zanjani Zanjirbaf Zar Zarbini Zarbakhsh Zargari Zarrabian Zarrini Zarrindast Zarrinvand Zendedel Zoobin 
+		}
+	}
+
+	kaifeng = {
+		graphical_culture = easterngfx
+		
+		male_names = {
+			Aholien Holien Awulohan Lohan Alo Atan Panku Yissuhoko Hoke Yitzuloyeh Yahochuehwu Chuehwu Yuehshuwo Shuwo Liewei Mieshe Moshi Nuwo Nuwa Nukua Hisna
+			Aitzula Yentula Abadim Abariah Adbr Adurah Ahid Enchael Ikkui Izzun Periah Ryhb Salmuth Shebuthon Zedaiah Zimmenel Tian
+		}
+
+		female_names = {
+			Nur Qmr Salmuth Naz Shad Gyra "Dw'myn" Meah Dosath Peninah
+		}
+
+		dynasty_names = {
+			Li Shi Zhao Jin Ai Zhang Gao Gan
+		}
+	}
+
+	lemba = {}
+	bene_israel = {}
+}

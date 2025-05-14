@@ -1,0 +1,38 @@
+GLT_ideas = {
+	start = {
+		heir_chance = 0.5
+		stability_cost_modifier = -0.1
+	}
+
+	bonus = {
+		global_autonomy = -0.02
+	}
+	
+	trigger = {
+		tag = GLT
+	}
+	free = yes		#will be added at load.
+	
+	veneration_of_martyrs = {
+		defensiveness = 0.25
+	}
+	innovative_theology = {
+		 global_institution_spread = 0.1	
+	}
+	tzedekah = {
+		state_maintenance_modifier = -0.25
+	}
+	fruitful_and_multiply = {
+		manpower_recovery_speed = 0.3
+	}
+	refusal_to_assimilate = {
+		enemy_core_creation = 0.2	
+	}
+	devotion_to_the_lord = {
+		land_morale = 0.2
+	}
+	chabad = {
+		missionaries = 1
+		global_missionary_strength = 0.02
+	}
+}

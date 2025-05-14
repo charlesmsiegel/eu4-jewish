@@ -1,0 +1,398 @@
+namespace = jewish_expansion_events
+
+#Birth of Yiddish Culture
+province_event = {
+	id = jewish_expansion_events.1
+	title = "jewish_expansion_events.1.t"
+	desc = "jewish_expansion_events.1.d"
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		OR = {
+			culture_group = germanic
+			culture_group = west_slavic
+			culture_group = east_slavic
+			culture_group = baltic
+			culture_group = carpathian
+		}
+		religion_group = jewish_group
+	}
+
+	mean_time_to_happen = {
+		years = 20
+
+		modifier = {
+			factor = 0.5
+			owner = { accepted_culture = yiddish }
+		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = { culture = yiddish } 
+		}
+	}
+
+	option = {
+		name = "jewish_expansion_events.1.a"
+		change_culture = yiddish
+	}
+}
+
+#Birth of Ladino Culture
+province_event = {
+	id = jewish_expansion_events.2
+	title = "jewish_expansion_events.2.t"
+	desc = "jewish_expansion_events.2.d"
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		OR = {
+			culture_group = iberian
+			culture_group = french
+			culture_group = maghrebi
+		}
+		religion_group = jewish_group
+	}
+
+	mean_time_to_happen = {
+		years = 20
+
+		modifier = {
+			factor = 0.5
+			owner = { accepted_culture = ladino }
+		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = { culture = ladino } 
+		}
+	}
+
+	option = {
+		name = "jewish_expansion_events.2.a"
+		change_culture = ladino
+	}
+}
+
+#Birth of Mizrahi Culture
+province_event = {
+	id = jewish_expansion_events.3
+	title = "jewish_expansion_events.3.t"
+	desc = "jewish_expansion_events.3.d"
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		OR = {
+			culture = al_misr_arabic
+			culture = al_iraqiya_arabic
+			culture = gulf_arabic
+			culture = bedouin_arabic
+			culture = mahri_culture
+			culture = hejazi_culture
+			culture = omani_culture
+			culture = al_suryah_arabic
+		}
+		religion_group = jewish_group
+	}
+
+	mean_time_to_happen = {
+		years = 20
+
+		modifier = {
+			factor = 0.5
+			owner = { accepted_culture = culture_mizrahi}
+		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = { culture = culture_mizrahi } 
+		}
+	}
+
+	option = {
+		name = "jewish_expansion_events.3.a"
+		change_culture = culture_mizrahi
+	}
+}
+
+#Birth of Beta Israeli Culture
+province_event = {
+	id = jewish_expansion_events.4
+	title = "jewish_expansion_events.4.t"
+	desc = "jewish_expansion_events.4.d"
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		culture_group = cushitic
+		religion_group = jewish_group
+	}
+
+	mean_time_to_happen = {
+		years = 20
+
+		modifier = {
+			factor = 0.5
+			owner = { accepted_culture = culture_beta_israel}
+		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = { culture = culture_beta_israel } 
+		}
+	}
+
+	option = {
+		name = "jewish_expansion_events.4.a"
+		change_culture = culture_beta_israel
+	}
+}
+
+#Birth of Yavanic Culture
+province_event = {
+	id = jewish_expansion_events.5
+	title = "jewish_expansion_events.5.t"
+	desc = "jewish_expansion_events.5.d"
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		OR = {
+			culture_group = south_slavic
+			culture_group = byzantine
+		}
+		religion_group = jewish_group
+	}
+
+	mean_time_to_happen = {
+		years = 20
+
+		modifier = {
+			factor = 0.5
+			owner = { accepted_culture = culture_romaniote}
+		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = { culture = culture_romaniote } 
+		}
+	}
+
+	option = {
+		name = "jewish_expansion_events.5.a"
+		change_culture = culture_romaniote
+	}
+}
+
+#Birth of Italkim Culture
+province_event = {
+	id = jewish_expansion_events.6
+	title = "jewish_expansion_events.6.t"
+	desc = "jewish_expansion_events.6.d"
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		culture_group = latin
+		religion_group = jewish_group
+	}
+
+	mean_time_to_happen = {
+		years = 20
+
+		modifier = {
+			factor = 0.5
+			owner = { accepted_culture = culture_italkim}
+		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = { culture = culture_italkim } 
+		}
+	}
+
+	option = {
+		name = "jewish_expansion_events.6.a"
+		change_culture = culture_italkim
+	}
+}
+
+#Birth of Bukharim Culture
+province_event = {
+	id = jewish_expansion_events.7
+	title = "jewish_expansion_events.7.t"
+	desc = "jewish_expansion_events.7.d"
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		culture_group = altaic
+		religion_group = jewish_group
+	}
+
+	mean_time_to_happen = {
+		years = 20
+
+		modifier = {
+			factor = 0.5
+			owner = { accepted_culture = culture_bukharim}
+		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = { culture = culture_bukharim } 
+		}
+	}
+
+	option = {
+		name = "jewish_expansion_events.7.a"
+		change_culture = culture_bukharim
+	}
+}
+
+#Birth of Yemenite Culture
+province_event = {
+	id = jewish_expansion_events.8
+	title = "jewish_expansion_events.8.t"
+	desc = "jewish_expansion_events.8.d"
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		culture = yemeni_culture
+		religion_group = jewish_group
+	}
+
+	mean_time_to_happen = {
+		years = 20
+
+		modifier = {
+			factor = 0.5
+			owner = { accepted_culture = culture_yemenite}
+		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = { culture = culture_yemenite } 
+		}
+	}
+
+	option = {
+		name = "jewish_expansion_events.8.a"
+		change_culture = culture_yemenite
+	}
+}
+
+#Birth of Krymchak Culture
+province_event = {
+	id = jewish_expansion_events.9
+	title = "jewish_expansion_events.9.t"
+	desc = "jewish_expansion_events.9.d"
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		culture_group = tartar
+		religion_group = jewish_group
+	}
+
+	mean_time_to_happen = {
+		years = 20
+
+		modifier = {
+			factor = 0.5
+			owner = { accepted_culture = culture_krymchak}
+		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = { culture = culture_krymchak } 
+		}
+	}
+
+	option = {
+		name = "jewish_expansion_events.9.a"
+		change_culture = culture_krymchak
+	}
+}
+
+#Birth of Kaifeng Culture
+province_event = {
+	id = jewish_expansion_events.10
+	title = "jewish_expansion_events.10.t"
+	desc = "jewish_expansion_events.10.d"
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		culture_group = east_asian
+		religion_group = jewish_group
+	}
+
+	mean_time_to_happen = {
+		years = 20
+
+		modifier = {
+			factor = 0.5
+			owner = { accepted_culture = kaifeng}
+		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = { culture = kaifeng } 
+		}
+	}
+
+	option = {
+		name = "jewish_expansion_events.10.a"
+		change_culture = kaifeng
+	}
+}
+
+#Birth of Dzhidi Culture
+province_event = {
+	id = jewish_expansion_events.11
+	title = "jewish_expansion_events.11.t"
+	desc = "jewish_expansion_events.11.d"
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		culture_group = iranian
+		religion_group = jewish_group
+	}
+
+	mean_time_to_happen = {
+		years = 20
+
+		modifier = {
+			factor = 0.5
+			owner = { accepted_culture = dzhidi}
+		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = { culture = dzhidi } 
+		}
+	}
+
+	option = {
+		name = "jewish_expansion_events.11.a"
+		change_culture = dzhidi
+	}
+}
+
+#Birth of Bene Israel Culture
+province_event = {
+	id = jewish_expansion_events.12
+	title = "jewish_expansion_events.12.t"
+	desc = "jewish_expansion_events.12.d"
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		OR = {
+			culture_group = dravidian
+			culture_group = eastern_aryan
+		}
+		religion_group = jewish_group
+	}
+
+	mean_time_to_happen = {
+		years = 20
+
+		modifier = {
+			factor = 0.5
+			owner = { accepted_culture = bene_israel}
+		}
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = { culture = bene_israel } 
+		}
+	}
+
+	option = {
+		name = "jewish_expansion_events.12.a"
+		change_culture = bene_israel
+	}
+}

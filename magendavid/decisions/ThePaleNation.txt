@@ -1,0 +1,93 @@
+country_decisions = {
+
+	form_pale = {
+		major = yes
+		potential = {
+			NOT = {exists = PLE}
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			religion_group = jewish_group
+			OR = {
+				any_owned_province = { area = west_dniepr_area }
+				any_owned_province = { area = east_dniepr_area }
+			}
+			num_of_cities = 3
+			NOT = { tag = YID }
+			NOT = { tag = GLT }
+			NOT = { tag = ITL }
+			NOT = { tag = KZR }
+			NOT = { tag = LTA }
+			NOT = { tag = SEP }
+			NOT = { tag = ISR}
+			NOT = { tag = TEI }
+			NOT = { tag = TSA }
+			NOT = { tag = YAV }
+			NOT = { tag = MRV }
+			NOT = { tag = SRH }
+		}
+		allow = {
+			adm_tech = 73
+			is_subject = no
+			is_at_war = no
+			
+			owns_core_province = 280	# Kiev, Capital
+		}
+		effect = {
+			east_dniepr_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = PLE
+			}
+			west_dniepr_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = PLE
+			}
+			white_ruthenia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = PLE
+			}
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			set_government_rank = 2
+			change_primary_culture = yiddish
+			change_tag = PLE
+			add_prestige = 25
+			swap_non_generic_missions = yes
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_capital = 280
+			swap_free_idea_group  = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

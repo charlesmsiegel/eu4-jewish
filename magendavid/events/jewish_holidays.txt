@@ -1,0 +1,306 @@
+namespace = jewish_holidays
+
+# Pesach
+country_event = {
+	id = jewish_holidays.1
+	title = "jewish_holidays.EVTNAME1"
+	desc = "jewish_holidays.EVTDESC1"
+	picture = RELIGION_eventPicture
+	
+	trigger = {
+		religion_group = jewish_group
+		is_month = 4
+		NOT = {is_month = 6}
+		NOT = {
+			has_country_modifier = ignored_pesach
+		}
+		NOT = {
+			has_country_flag = pesach_flag
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+	}
+	
+	option = {
+		name = "jewish_holidays.EVTOPTA1"
+		set_country_flag = pesach_flag
+	}
+	
+	option = {
+		name = "jewish_holidays.EVTOPTB1"
+		add_country_modifier = {
+			name = ignored_pesach
+			duration = 365
+			hidden = yes
+		}
+	}
+}
+
+# Purim
+country_event = {
+	id = jewish_holidays.2
+	title = "jewish_holidays.EVTNAME2"
+	desc = "jewish_holidays.EVTDESC2"
+	picture = RELIGION_eventPicture
+	
+	trigger = {
+		religion_group = jewish_group
+		is_month = 2
+		NOT = {is_month = 4}
+		NOT = {
+			has_country_modifier = ignored_purim
+		}
+		NOT = {
+			has_country_flag = purim_flag
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+	}
+	
+	option = {
+		name = "jewish_holidays.EVTOPTA2"
+		set_country_flag = purim_flag
+	}
+	
+	option = {
+		name = "jewish_holidays.EVTOPTB2"
+		add_country_modifier = {
+			name = ignored_purim
+			duration = 365
+			hidden = yes
+		}
+	}
+}
+
+# Rosh HaShanah
+country_event = {
+	id = jewish_holidays.3
+	title = "jewish_holidays.EVTNAME3"
+	desc = "jewish_holidays.EVTDESC3"
+	picture = RELIGION_eventPicture
+	
+	trigger = {
+		religion_group = jewish_group
+		is_month = 2
+		NOT = {is_month = 4}
+		NOT = {
+			has_country_modifier = ignored_roshhashanah
+		}
+		NOT = {
+			has_country_flag = roshhashanah_flag
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+	}
+	
+	option = {
+		name = "jewish_holidays.EVTOPTA3"
+		set_country_flag = roshhashanah_flag
+	}
+	
+	option = {
+		name = "jewish_holidays.EVTOPTB3"
+		add_country_modifier = {
+			name = ignored_roshhashanah
+			duration = 365
+			hidden = yes
+		}
+	}
+}
+
+# Yom Kippur
+country_event = {
+	id = jewish_holidays.4
+	title = "jewish_holidays.EVTNAME4"
+	desc = "jewish_holidays.EVTDESC4"
+	picture = RELIGION_eventPicture
+	
+	trigger = {
+		religion_group = jewish_group
+		is_month = 2
+		NOT = {is_month = 4}
+		NOT = {
+			has_country_modifier = ignored_yomkippur
+		}
+		NOT = {
+			has_country_flag = yomkippur_flag
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+	}
+	
+	option = {
+		name = "jewish_holidays.EVTOPTA4"
+		set_country_flag = yomkippur_flag
+	}
+	
+	option = {
+		name = "jewish_holidays.EVTOPTB4"
+		add_country_modifier = {
+			name = ignored_yomkippur
+			duration = 365
+			hidden = yes
+		}
+	}
+}
+
+# Tisha B'Av
+country_event = {
+	id = jewish_holidays.5
+	title = "jewish_holidays.EVTNAME5"
+	desc = "jewish_holidays.EVTDESC5"
+	picture = RELIGION_eventPicture
+	
+	trigger = {
+		religion_group = jewish_group
+		is_month = 2
+		NOT = {is_month = 4}
+		NOT = {
+			has_country_modifier = ignored_tishabav
+		}
+		NOT = {
+			has_country_flag = tishabav_flag
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+	}
+	
+	option = {
+		name = "jewish_holidays.EVTOPTA5"
+		set_country_flag = tishabav_flag
+	}
+	
+	option = {
+		name = "jewish_holidays.EVTOPTB5"
+		add_country_modifier = {
+			name = ignored_tishabav
+			duration = 365
+			hidden = yes
+		}
+	}
+}
+
+# Chanukah
+country_event = {
+	id = jewish_holidays.6
+	title = "jewish_holidays.EVTNAME6"
+	desc = "jewish_holidays.EVTDESC6"
+	picture = RELIGION_eventPicture
+	
+	trigger = {
+		religion_group = jewish_group
+		is_month = 2
+		NOT = {is_month = 4}
+		NOT = {
+			has_country_modifier = ignored_chanukah
+		}
+		NOT = {
+			has_country_flag = chanukah_flag
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+	}
+	
+	option = {
+		name = "jewish_holidays.EVTOPTA6"
+		set_country_flag = chanukah_flag
+	}
+	
+	option = {
+		name = "jewish_holidays.EVTOPTB6"
+		add_country_modifier = {
+			name = ignored_chanukah
+			duration = 365
+			hidden = yes
+		}
+	}
+}
+
+# Sukkot
+country_event = {
+	id = jewish_holidays.7
+	title = "jewish_holidays.EVTNAME7"
+	desc = "jewish_holidays.EVTDESC7"
+	picture = RELIGION_eventPicture
+	
+	trigger = {
+		religion_group = jewish_group
+		is_month = 2
+		NOT = {is_month = 4}
+		NOT = {
+			has_country_modifier = ignored_sukkot
+		}
+		NOT = {
+			has_country_flag = sukkot_flag
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+	}
+	
+	option = {
+		name = "jewish_holidays.EVTOPTA7"
+		set_country_flag = sukkot_flag
+	}
+	
+	option = {
+		name = "jewish_holidays.EVTOPTB7"
+		add_country_modifier = {
+			name = ignored_sukkot
+			duration = 365
+			hidden = yes
+		}
+	}
+}
+
+# Shavuot
+country_event = {
+	id = jewish_holidays.8
+	title = "jewish_holidays.EVTNAME8"
+	desc = "jewish_holidays.EVTDESC8"
+	picture = RELIGION_eventPicture
+	
+	trigger = {
+		religion_group = jewish_group
+		is_month = 2
+		NOT = {is_month = 4}
+		NOT = {
+			has_country_modifier = ignored_shavuot
+		}
+		NOT = {
+			has_country_flag = shavuot_flag
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+	}
+	
+	option = {
+		name = "jewish_holidays.EVTOPTA8"
+		set_country_flag = shavuot_flag
+	}
+	
+	option = {
+		name = "jewish_holidays.EVTOPTB8"
+		add_country_modifier = {
+			name = ignored_shavuot
+			duration = 365
+			hidden = yes
+		}
+	}
+}
+

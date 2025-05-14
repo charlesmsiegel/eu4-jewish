@@ -1,0 +1,39 @@
+YID_ideas = {
+	start = {
+		naval_morale = 0.20
+		embargo_efficiency = 0.33
+	}
+
+	bonus = {
+		free_leader_pool = 1
+	}
+	
+	trigger = {
+		tag = YID
+	}
+	free = yes		#will be added at load.
+	
+	royal_navy = {
+		navy_tradition = 0.25
+		heavy_ship_power = 0.10
+	}
+	eltham_ordinance = {
+		global_trade_goods_size_modifier = 0.2
+	}
+	secretaries_of_state = {
+		diplomatic_upkeep = 1
+	}
+	navigation_acts = {
+		trade_efficiency = 0.1
+	}
+	city_upon_a_hill = {
+		global_colonial_growth = 20
+	}
+	reform_of_comission_buying = {
+		discipline = 0.05
+	}
+	sick_and_hurt_board = {
+		sailors_recovery_speed = 0.10
+		sailor_maintenance_modifer = -0.1
+	}
+}

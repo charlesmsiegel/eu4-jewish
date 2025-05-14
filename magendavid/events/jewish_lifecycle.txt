@@ -1,0 +1,61 @@
+namespace = jewish_lifecycle
+
+# Wedding
+country_event = {
+	id = jewish_lifecycle.1
+	title = "jewish_lifecycle.1.t"
+	desc = "jewish_lifecycle.1.d"
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		religion_group = jewish_group
+	}
+
+	mean_time_to_happen = {
+		years = 20
+	}
+
+	option = {
+		name = "jewish_lifecycle.1.a"
+	}
+}
+
+# Bris
+country_event = {
+	id = jewish_lifecycle.2
+	title = "jewish_lifecycle.2.t"
+	desc = "jewish_lifecycle.2.d"
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		religion_group = jewish_group
+	}
+
+	mean_time_to_happen = {
+		years = 20
+	}
+
+	option = {
+		name = "jewish_lifecycle.2.a"
+	}
+}
+
+# Death / Sitting Shiva
+country_event = {
+	id = jewish_lifecycle.3
+	title = "jewish_lifecycle.3.t"
+	desc = "jewish_lifecycle.3.d"
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		religion_group = jewish_group
+	}
+
+	mean_time_to_happen = {
+		years = 20
+	}
+
+	option = {
+		name = "jewish_lifecycle.3.a"
+	}
+}

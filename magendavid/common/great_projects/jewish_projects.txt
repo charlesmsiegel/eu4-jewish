@@ -1,0 +1,9 @@
+third_temple = {
+	ambient_object = third_temple
+	province = 379
+	is_canal = yes
+	time = 60
+	
+	modifier = {
+	}
+}

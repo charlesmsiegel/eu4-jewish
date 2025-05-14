@@ -1,0 +1,135 @@
+jewish_generic = {
+    slot = 1                    # Which column the missions will appear in. 1 to 5.
+    generic = no             # Whether missions within this series are considered generic.
+    ai = yes                  # Whether the AI will claim missions in this series.
+    has_country_shield = no  # Whether to display the country shield on the icon.    
+    
+    # Determines whether a series is loaded at all. Used to limit series to DLC.
+    potential_on_load = {
+        
+    }
+    
+    # Determines when a series appears for a country. Country scope.
+    potential = {
+        religion_group = jewish_group
+    }
+    
+    # Restore the Zadokite Priesthood
+    priesthood = {
+        icon = mission_buddhist_monk_praying            # The icon to use for the mission
+        ai = yes          # Whether the AI will claim this mission.
+        position = 1        # Which row the mission appears in. 1 is top.
+        
+        # Which missions must be completed before this mission is active.
+        required_missions = {
+        }
+        
+        # Determines which provinces to highlight. Acts like all_province scope. Optional.
+        provinces_to_highlight = {
+        }
+    
+        # Determines when the mission is completed. Country scope.
+        trigger = {
+        }
+        
+        # The effect executed when the mission is claimed. Country scope.
+        effect = {
+        }
+    }
+
+    # Establish Prophets
+    prophets = {
+        icon = mission_hands_praying            # The icon to use for the mission
+        ai = yes          # Whether the AI will claim this mission.
+        position = 2        # Which row the mission appears in. 1 is top.
+        
+        # Which missions must be completed before this mission is active.
+        required_missions = {
+			priesthood
+        }
+        
+        # Determines which provinces to highlight. Acts like all_province scope. Optional.
+        provinces_to_highlight = {
+        }
+    
+        # Determines when the mission is completed. Country scope.
+        trigger = {
+        }
+        
+        # The effect executed when the mission is claimed. Country scope.
+        effect = {
+        }
+    }
+
+    # Claim Davidic Dynasty
+    davidic = {
+        icon = mission_monarch_in_throne_room            # The icon to use for the mission
+        ai = yes          # Whether the AI will claim this mission.
+        position = 3        # Which row the mission appears in. 1 is top.
+        
+        # Which missions must be completed before this mission is active.
+        required_missions = {
+			priesthood
+        }
+        
+        # Determines which provinces to highlight. Acts like all_province scope. Optional.
+        provinces_to_highlight = {
+        }
+    
+        # Determines when the mission is completed. Country scope.
+        trigger = {
+        }
+        
+        # The effect executed when the mission is claimed. Country scope.
+        effect = {
+        }
+    }
+	
+    # Restore the Temple
+    restore_temple = {
+        icon = mission_arabian_fort            # The icon to use for the mission
+        ai = yes          # Whether the AI will claim this mission.
+        position = 4        # Which row the mission appears in. 1 is top.
+        
+        # Which missions must be completed before this mission is active.
+        required_missions = {
+			davidic
+        }
+        
+        # Determines which provinces to highlight. Acts like all_province scope. Optional.
+        provinces_to_highlight = {
+        }
+    
+        # Determines when the mission is completed. Country scope.
+        trigger = {
+        }
+        
+        # The effect executed when the mission is claimed. Country scope.
+        effect = {
+        }
+    }
+	
+    # Claim the title of Moshiach
+    moshiach = {
+        icon = mission_kyros            # The icon to use for the mission
+        ai = yes          # Whether the AI will claim this mission.
+        position = 5        # Which row the mission appears in. 1 is top.
+        
+        # Which missions must be completed before this mission is active.
+        required_missions = {
+			restore_temple
+        }
+        
+        # Determines which provinces to highlight. Acts like all_province scope. Optional.
+        provinces_to_highlight = {
+        }
+    
+        # Determines when the mission is completed. Country scope.
+        trigger = {
+        }
+        
+        # The effect executed when the mission is claimed. Country scope.
+        effect = {
+        }
+    }
+}

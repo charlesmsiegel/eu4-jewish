@@ -1,0 +1,160 @@
+jewish_estate = {
+    icon = 1     # Refers to the frame index of an icon in GFX_estates_icons
+    color = { 102 153 25 }   # What color the estate appears as in the estate mapmode
+    
+	keep_on_conquest = no
+	always_remove_on_religious_conquest = no
+	
+    # Whether the country gets the estate
+    trigger = {
+        NOT = { religion_group = jewish_group }
+		any_known_country = {
+			has_discovered = 379
+		}
+    }
+    
+    # Whether the province can be granted the estate
+    province_trigger = {
+        always = yes
+    }
+
+    # When an estate is declared independant, only provinces belong to the estate that pass this check will be part of the independant nation
+#    independence_trigger = { 
+#        <triggers>
+#    }
+    
+    # The government a nation that breaks free through this estate gets
+#    independence_government = <government>
+    
+    # The technology group a nation that breaks free through this estate gets
+#    independence_tech_group = <technology group>
+    
+    
+    # The modifiers to apply when the estate is "happy"
+    country_modifier_happy = {
+        global_trade_power = 0.5
+		diplomatic_reputation = 0.5
+    }
+    
+    # The modifiers to apply when the estate is "neutral"
+    country_modifier_neutral = {
+        global_trade_power = 0.2
+    }
+    
+    # The modifiers to apply when the estate is "angry"
+    country_modifier_angry = {
+        global_trade_power = -0.5
+    }
+    
+    # The modifiers to apply to provinces belong to this estate when "happy"
+    province_modifier_happy = {
+        
+    }
+    
+    # The modifiers to apply to provinces belong to this estate when "neutral"
+    province_modifier_neutral = {
+        
+    }
+    
+    # The modifiers to apply to provinces belong to this estate when "angry"
+    province_modifier_angry = {
+        
+    }
+    
+    # The minimum autonomy floor for provinces belonging to this estate
+    min_autonomy = 10
+    
+    # Which province modifiers that autonomy does not effect when a province belongs to this estate
+    # Can be any province modifier
+    autonomy_does_not_affect = local_production_efficiency
+    
+    # The minimum percentage of territory the estae expects
+    min_territory = 0
+    
+    # The maximum amount of provinces that territory demands will be ignored to
+#    min_provinces_to_want_territory = <int>
+    
+    # Modifies the amount of power granting provinces to this estate gives as a percentage of the base.
+    territory_power_modifier = 1.5
+
+    # Modifies the base territory wanted
+#    wanted_territory_modifier = {
+#        desc = <key>
+#        trigger = {
+#            <triggers>
+#        }
+#        value = <float>
+#    }
+    
+    # The base amount of influence this estate has
+    base_influence = 5
+    
+    # Modifies the base estate influence
+#    influence_modifier = {
+#        desc = <key>
+#        trigger = {
+#            <triggers>
+#        }
+#        influence = <float>
+#    }
+    
+    # Modifiers the base estate loyalty
+#    loyalty_modifier = {
+#        desc = <key>
+#        trigger = {
+#            <triggers>
+#        }
+#        loyalty = <float>
+#    }
+    
+    # Used by the AI to determine when to assign provinces to estates beyond the minimum
+#    ai_territory_modifier = {
+#        trigger = {
+#            <triggers>
+#        }
+#        value = <float>
+#    }
+    
+    # The AI weighting for which provinces are granted this estate
+    ai_grant_province = {
+        factor = 1
+        
+#        modifier = {
+#            factor = <float>
+#            <triggers>
+#        }
+    }
+    
+    interaction = {
+		name = "CONVERT_PROVINCE"      # Localisation used for the interaction name
+		icon = 10      # Refers to the frame index of an icon in GFX_estate_interactions
+		
+		years_between_use = 0 # The length of the cooldown for this action.
+		
+		# Determines when this interaction can appear
+		potential = {
+			always = yes
+		}
+		
+		# Determines when this interaction can be taken
+		trigger = {
+			always = yes
+		}
+		
+		# The effects to execute
+		effect = {
+			
+		}
+		
+		# The AI weighting for using this interaction
+		ai_will_do = {
+			factor = 1
+			
+#			modifier = {
+#				factor = <float>
+#				<triggers>
+#			}
+		}
+	}
+
+}

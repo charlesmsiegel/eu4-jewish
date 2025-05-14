@@ -1,0 +1,13 @@
+﻿l_english:
+ temple_jewish_rebels_name: "$RELIGION$ Zealots"
+ temple_jewish_rebels_title:0 "Religious"
+ temple_jewish_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ temple_jewish_rebels_demand: "Convert $COUNTRYNAME$"
+ temple_jewish_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ temple_jewish_rebels_army:0 "$RELIGION$ Army"
+ jewish_rebels_name: "$RELIGION$ Zealots"
+ jewish_rebels_title:0 "Religious"
+ jewish_rebels_desc: "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ jewish_rebels_demand: "Convert $COUNTRYNAME$"
+ jewish_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ jewish_rebels_army:0 "$RELIGION$ Army"

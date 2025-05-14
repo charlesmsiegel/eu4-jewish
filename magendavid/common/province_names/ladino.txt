@@ -1,0 +1,137 @@
+#Hispania
+206 = "Galizia"
+209 = "Vizkaya"
+212 = "Djirona"
+213 = "Barselona"
+214 = "Saragosa"
+215 = "Kastiya la Veja"
+220 = "Valensia"
+221 = "Mursia"
+224 = "Andaluziya"
+225 = "Kordova"
+226 = "Jibraltar"
+231 = "Oporto"
+1745 = "Kantabria"
+1747 = "Cáceres"
+1749 = "Kadiz"
+1750 = "Alikante"
+1851 = "Koimbra"
+
+#Gaullia
+75 = "Alsasia"
+87 = "Kalais"
+89 = "Pikardia"
+102 = "Nisa"
+168 = "Normandia"
+172 = "Loira"
+174 = "Akuitania"
+183 = "Ada de Fransia"
+186 = "Shampanya"
+189 = "Lorena"
+192 = "Borgonya"
+193 = "Franko Kondado"
+195 = "Lemosin"
+197 = "Roseyon"
+199 = "Auvernia"
+200 = "Languedok"
+201 = "Provenza"
+
+#Britannia
+236 = "Londra"
+
+#Scandinavia
+1 = "Estokolma"
+
+#Mauretania
+334 = "Tanjer"
+335 = "Meliya"
+336 = "Tlemsin"
+337 = "Oran"
+338 = "Arjel"
+339 = "Kabilia"
+340 = "Konstantin"
+345 = "Kasablanka"
+366 = "Kanarias"
+1751 = "Seuta"
+2455 = "Bizerta"
+2954 = "Djerba"
+
+#Hellas
+146 = "Atines"
+148 = "Makedonia"
+149 = "Edirne"
+151 = "Estambol"
+318 = "Izmir"
+320 = "Rodes"
+147 = "Salonika"
+
+#Levant
+321 = "Kipre"
+361 = "Kayro"
+365 = "Sinai"
+379 = "Yerushalayim"
+382 = "Damask"
+
+#Italia
+101 = "Genova"
+103 = "Piemonte"
+104 = "Milano"
+107 = "Brescia"
+110 = "Trento"
+111 = "Friuli"
+112 = "Venesia"
+114 = "Romanya"
+116 = "Florensia"
+120 = "Abruzos"
+122 = "Apulia"
+123 = "Kalabria"
+124 = "Mesina"
+125 = "Palermo"
+1247 = "Korsega"
+1862 = "Kremonia"
+1875 = "Kuneo"
+
+#Brazil
+746 = "Juayana"
+
+#Poland
+257 = "Varsovia"
+
+#Russia
+33 = "San Petersburgo"
+41 = "Kaliningrado"
+295 = "Mosku"
+1078 = "Yekaterimburgo"
+
+#Ukrain
+284 = "Krimea"
+
+#Germania
+44 = "Amburgo"
+46 = "Mecklenburgo"
+50 = "Brandeburgo"
+61 = "Dresde"
+65 = "Munich"
+70 = "Wurtemberg"
+76 = "Salzburgo"
+77 = "Palatinado"
+78 = "Magunsia"
+81 = "Hesse"
+82 = "Westfalia"
+94 = "Luksemburgo"
+134 = "Viena"
+165 = "Berna"
+166 = "Suisa"
+1760 = "Kolonia"
+1869 = "Zurich"
+
+#America Central
+852 = "Meksiko"
+
+#America North
+965 = "New York"
+
+#China
+668 = "Makao"
+738 = "Taipei"
+1816 = "Peking"

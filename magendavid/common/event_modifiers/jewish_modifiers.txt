@@ -1,0 +1,28 @@
+ignored_pesach = {
+}
+
+ignored_shavuot = {
+}
+
+ignored_sukkot = {
+}
+
+ignored_chanukah = {
+}
+
+ignored_tishabav = {
+}
+
+ignored_yomkippur = {
+}
+
+ignored_roshhashanah = {
+}
+
+ignored_purim = {
+}
+
+building_great_work = {
+	diplomatic_upkeep = -1
+	prestige = 1
+}

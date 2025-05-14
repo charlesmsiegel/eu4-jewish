@@ -1,0 +1,5 @@
+government = theocratic_government
+technology_group = eastern
+religion = jewish
+primary_culture = yiddish
+capital = 2961

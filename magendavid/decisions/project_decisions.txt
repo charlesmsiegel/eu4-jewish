@@ -1,0 +1,34 @@
+country_decisions = {
+	construct_third_temple = {
+		major = yes
+		potential = {
+			owns = 379
+			NOT = { has_country_modifier = building_great_work }
+			has_discovered = 379
+			379 = {
+				range = ROOT
+				NOT = { has_great_project = third_temple }
+			}
+			religion_group = jewish_group
+		}
+		allow = {
+			owns = 379
+			adm_tech = 8
+			treasury = 2500
+		}
+		effect = {
+			add_treasury = -2500
+			add_country_modifier = {
+				name = "building_great_work"
+				duration = 3650
+			}
+			379 = {	# Jerusalem
+				add_great_project = third_temple
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

@@ -1,0 +1,14 @@
+rabbi = {
+	monarch_power = ADM
+	
+	# Bonus
+	idea_cost = -0.1
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { religion_group = jewish_group }
+		}
+	}
+}

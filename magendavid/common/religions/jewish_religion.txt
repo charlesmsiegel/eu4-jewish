@@ -1,0 +1,66 @@
+jewish_group = {
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 106 107 }
+	
+	center_of_religion = 379
+	
+	temple_jewish = {
+	
+		icon = 20
+		color = { 102 153 25 }
+	
+		country = {
+			religious_unity = 0.2
+			land_morale = 0.15
+		}
+		country_as_secondary = {
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+
+		allowed_conversion = {
+			jewish
+		}
+		on_convert = {
+			change_religion = temple_jewish
+		}
+		
+		misguided_heretic = yes
+		
+		heretic = { PHARISEES ZEALOTS }
+	}
+	
+	jewish = {
+	# Replace Semien with jewish
+	
+		icon = 29
+		color = { 153 25 102 }
+		
+		country = {
+			tolerance_own = 2
+			advisor_pool = 1
+		}
+		country_as_secondary = {
+			advisor_pool = 1
+			advisor_cost = -0.1
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		allowed_conversion = {
+			temple_jewish
+		}
+		on_convert = {
+			change_religion = jewish
+		}
+		
+		misguided_heretic = yes
+		
+		heretic = { SAMARITAN KARAITE NATKART SABBAT FRANK ISAWIYYA }
+	}
+	
+	harmonized_modifier = harmonized_jewish_group
+	
+	crusade_name = MILCHEMET_MITZVAH
+}	
